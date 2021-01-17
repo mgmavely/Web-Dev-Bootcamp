@@ -2,6 +2,13 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+h2 {
+  font-family: 'Montserrat';
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 h3 {
   font-family: "Montserrat";
   font-weight: 900;
@@ -20,7 +27,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 
@@ -55,29 +62,131 @@ p {
 
 /* Download Buttons */
 .dl-btn {
-  margin: 5% 3% 15% 0;
+  margin: 5% 1% 15% 0;
+}
+
+.dl-btn-final {
+  margin: 5% 2% 5% 2%;
 }
 
 /* Title Image */
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%
 }
 
 
 /* Features */
 
 #features {
-  padding: 150px 0;
+  padding: 7% 15%;
   text-align: center;
+  background-color: #fff;
+  position: relative;
 }
 
 .feature-icons {
   font-size: 5rem;
-  color: #FF6A4D;
+  color: #EF8172;
   padding-bottom: 25px;
 }
 
 .feature-icons:hover {
   color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  text-align: center;
+  background-color: #EF8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+/* Press Section */
+
+#press {
+  background-color: #EF8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logos {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+#pricing {
+  padding:  100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1150px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+
+  }
+}
+
+
+/* Call to Action */
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+}
+
+.cta-h3 {
+  font-weight: bolder;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  background-color: #fff;
+  padding: 5% 20%;
+}
+
+.ft-icon {
+  text-align: center;
+  margin: 0 2%;
+}
+
+.ft-btn {
+  border-style:  none;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.ft-row {
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 3%;
 }
